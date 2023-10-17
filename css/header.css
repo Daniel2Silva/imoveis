@@ -1,0 +1,58 @@
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 15px 0px;
+    background-color: blue;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+}
+
+.social li a {
+    color: #000000;
+}
+
+
+/* HEADER BOTTOM */
+
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+
+.nav {
+    display: flex;
+    gap: 60px;
+}
+
+.nav-itens {
+    display: flex;
+    gap: 60px;
+}
+
+.nav-itens li a {
+    color: #000000;
+    transition: .4s;
+}
+
+.nav-itens li a:hover {
+    color: #ff0000;
+    transition: .4s;
+}
